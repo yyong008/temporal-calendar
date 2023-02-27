@@ -1,12 +1,14 @@
-import './App.css'
+import "./App.css";
+import CalRow from './components/calRow'
+import ImageComp from './components/ImageComp'
 
 function App() {
-
   return (
     <div className="App">
-      MainApp
+      <ImageComp />
+      <CalRow />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
